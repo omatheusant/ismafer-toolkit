@@ -14,8 +14,8 @@ export const Hero = () => {
                         <Link href={'/bg-remover'}>
                         <button className="btn bg-[--brand]  hover:bg-orange-500 text-[--dark] text-xl w-full">Remover fundo</button>
                         </Link>
-                        <Link href={'/'}>
-                        <button className="btn bg-[--brand]  hover:bg-orange-500 text-[--dark] text-xl w-full">Outra ferramenta</button>
+                        <Link href={'https://kitgenerator.vercel.app/'}>
+                        <button className="btn bg-[--brand]  hover:bg-orange-500 text-[--dark] text-xl w-full">Criar KIT</button>
                         </Link>
                     </div>
                 </div>
