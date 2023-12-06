@@ -1,6 +1,6 @@
-import { Home } from '@/app/components/Home/Home'
+import { Home } from '@/app/components/Home/Home';
 
-export default function App() {
+export default async function App() {
   return (
     <>
       <Home/>
