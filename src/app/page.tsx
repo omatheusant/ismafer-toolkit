@@ -1,9 +1,9 @@
-import { Hero } from '@/app/components/Hero/Hero'
+import { Home } from '@/app/components/Home/Home'
 
 export default function App() {
   return (
     <>
-      <Hero/>
+      <Home/>
     </>
   )
 }
