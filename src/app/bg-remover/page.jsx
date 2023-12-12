@@ -36,7 +36,9 @@ const BackgroundRemovalComponent = () => {
     setLoading(true);
 
     try {
-      const blob = await imglyRemoveBackground(imageSrc);
+      const blob = await imglyRemoveBackground(imageSrc, {
+        output: {quality: 1.0}
+      });
       const url = URL.createObjectURL(blob);
       setResultUrl(url);
     } catch (error) {

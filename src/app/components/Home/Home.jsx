@@ -14,7 +14,7 @@ export const Home = () => {
                         <Link href={'/bg-remover'}>
                         <button className="btn bg-[--brand]  hover:bg-orange-500 text-[--dark] text-xl w-full">Remover fundo</button>
                         </Link>
-                        <Link href={'https://kitgenerator.vercel.app/'}>
+                        <Link href={'https://kitcreator.vercel.app/'}>
                         <button className="btn bg-[--brand]  hover:bg-orange-500 text-[--dark] text-xl w-full">Criação de KIT</button>
                         </Link>
                     </div>
